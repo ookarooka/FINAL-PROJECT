@@ -1,4 +1,4 @@
-# regex-nfa-generator
+# nfa_construct
 #### Author: Joshua Patterson
 #### December 6, 2019
 #### Theory of Computation Project
