@@ -1,11 +1,5 @@
-# nfa_construct
-#### Author: Joshua Patterson
-#### December 6, 2019
-#### Theory of Computation Project
-
 ## non-deterministic finite automata generator from regular expression
-A C program on the command-line, which takes in a regular expression and produces an nfa1.dot file, that could then be formatted as a PNG file.
-
+A C program on the command-line, which takes in a regular expression and produces an NFA that could then be formatted as a PNG file.
 ### This program uses graphviz and xdot.
  Installed via homebrew:
 `brew install gcc graphiz xdot`
@@ -27,6 +21,3 @@ A C program on the command-line, which takes in a regular expression and produce
  `( ) = parenthesis`
  `* = kleene closure`
  `a-z = characters`
- 
- ### Update:
- `12/6/2019: Adds additional lambda moves`
