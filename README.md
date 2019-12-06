@@ -1,7 +1,7 @@
 # regex-nfa-generator
-## Author: Joshua Patterson
-## December 6, 2019
-## Theory of Computation Project
+#### Author: Joshua Patterson
+#### December 6, 2019
+#### Theory of Computation Project
 
 ## non-deterministic finite automata generator from regular expression
 A C program on the command-line, which takes in a regular expression and produces an nfa1.dot file, that could then be formatted as a PNG file.
