@@ -1,4 +1,4 @@
-#include "util.h"
+#include "call.h"
 
 void linked(int size, list *linked_list) {
     linked_list->size = size;
