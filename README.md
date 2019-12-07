@@ -1,4 +1,4 @@
-## non-deterministic finite automata generator from regular expression
+## nfa-construct
 A C program on the command-line, which takes in a regular expression and produces an NFA that could then be formatted as a PNG file.
 ### This program uses graphviz and xdot.
  Installed via homebrew:
@@ -21,3 +21,6 @@ A C program on the command-line, which takes in a regular expression and produce
  `( ) = parenthesis`
  `* = kleene closure`
  `a-z = characters`
+
+### updates
+`12/6/19 - additional lambda moves`
