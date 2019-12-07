@@ -17,7 +17,7 @@ A C program on the command-line, which takes in a regular expression and produce
  To generate more nfa's, simply use the syntax `./toNFA 'EXPRESSION'` to create another nfa.dot file, then convert to PNG using `dot -Tpng nfa.dot -o nfa2.png`, calling the second image `nfa2.png`.
  
  ### Supported Characters:
- `+ = plus sign`
+ `+ = union`
  `( ) = parenthesis`
  `* = kleene closure`
  `a-z = characters`
