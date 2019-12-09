@@ -77,7 +77,7 @@ int main(int argc, char *argv[]) {
         perror("fopen");
         exit(-1);
     }
-    printf("reg_exp: '%s'\n", argv[1]);
+    printf("Regular Expression: '%s'\n", argv[1]);
     NFA nfa = nfa_generate(argv[1]);     
     visualizeDot(argv[1], &nfa, create);    
     fclose(create);
