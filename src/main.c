@@ -59,7 +59,7 @@ NFA nextReg(char **exp) {
         *exp += 1;      
     }
     else if (ch == '+') {       
-        step = NFA_Union(&left);
+        step = unionOp(&left);
         *exp += 1;      
     }
     else return left;           
