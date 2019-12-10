@@ -41,4 +41,4 @@ NFA firstChar(char c);
 /* Operators */
 NFA concatenation(const NFA *A, const NFA *B);     
 NFA kleeneClosure(const NFA *A);                
-NFA NFA_Union(const NFA *A);               
+NFA unionOp(const NFA *A);     
