@@ -51,7 +51,7 @@ NFA kleeneClosure(const NFA *A) {
     return C;
 }
 
-NFA NFA_Union(const NFA *A) {
+NFA unionOp(const NFA *A) {
     NFA C = {step_nfa(), step_nfa()};
     lambda(C.start, A->start);
     lambda(A->end, C.start);
