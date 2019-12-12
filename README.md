@@ -1,4 +1,7 @@
-## nfa-construct
+## FINAL PROJECT
+## CMSI 386
+## AUTHOR: JOSHUA PATTERSON
+## REGULAR EXPRESION -> NFA GENERATOR
 A C program on the command-line, which takes in a regular expression and produces an NFA that could then be formatted as a PNG file.
 ### This program uses graphviz and xdot.
  Installed via homebrew:
